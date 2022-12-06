@@ -14,3 +14,4 @@ To run:
 
 - `cmake -Bbuild && cmake --build build -j $(nproc)`
 - `sudo chrt -f 80 build/boost_spsc/boost_spsc`
+- `sudo chrt -f 80 build/iceoryx_mpnc/iceoryx_mpnc`
